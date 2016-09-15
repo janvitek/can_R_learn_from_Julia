@@ -14,3 +14,11 @@ of the GNU R bytecode compiler, the comptuation takes about
 30 secs.
 
 A straightforward Julia implementation takes .2 seconds.
+
+
+--- 
+TODO:
+ 
+ - fix bug in the colMeans code, for complex, res is dropping values
+
+ - fix bug in the typmin for Complex, NaN can't be compared
